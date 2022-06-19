@@ -1,0 +1,74 @@
+.navbar {
+    background:transparent;
+  }
+
+ 
+  .navbar-Logo {
+    margin-top: 7px;
+    margin-bottom: 15px;
+    max-width: 170px;
+    max-height: 30px;
+    margin-left: 100px;  
+    
+  }
+ 
+  
+
+  .nav-menubar {
+  display: grid;
+  grid-template-columns: repeat(25, auto);
+  grid-gap: 5px;
+  list-style: none;
+  margin-left: 150px;
+  padding-bottom: 10px;
+  
+  }
+
+  .nav-links {
+    color: rgb(0, 0, 0);
+    padding: 2rem 2rem;
+    margin: 2rem 2rem;
+    font-size: 22px;
+    justify-content: space-between;
+  }
+  
+  .nav-links:hover {
+    border-bottom: 4px solid rgb(0, 0, 0);
+    transition: all 0.2s ease-out;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  
+}
+
+  .nav-item{
+    margin-top: 10px;
+  }
+
+
+
+
+
+.BlogDropDown{
+  background-color:  #7BE0AD;
+  color:rgb(0, 0, 0);
+  margin-left: 50px;
+  padding: 20px 60px;
+  font-size: 20px;
+  justify-content: space-between;
+  border-radius: 25px;
+}  
+  
+.BlogDropDown:hover{
+  transition: all 0.2s ease-out;
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+
+}
+.itemLink{
+  background-color: black ;
+} 
+
+.itemLink:hover{
+  transition: all 0.2s ease-out;
+  color:rgb(255, 255, 255);
+}
