@@ -19,11 +19,11 @@ In order to run this website locally, a copy of this repository must be download
 
 ### **Screenshots**
 ---
-### 1. Home Page
+#### 1. Home Page
 ![Home Page](/Captures/Capture_1.png)
-### 2. Climate Change Quiz
+#### 2. Climate Change Quiz
 ![Quiz Page](/Captures/Capture_2.png)
-### 3. Climate Change Blog
+#### 3. Climate Change Blog
 ![Learn Page](/Captures/Capture_3.png)
     
 
