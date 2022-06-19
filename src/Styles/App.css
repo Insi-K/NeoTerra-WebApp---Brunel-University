@@ -1,0 +1,281 @@
+
+  img {
+    width: 1900px;
+    height: 1200px;
+  }
+  .App-Carousel{
+    width: 100%;
+  }
+  .QuizTitle{
+    position: absolute;
+    bottom: 870px;
+    left: 530px;
+    font-size: 45px;
+    font-weight: 50;
+  }
+    
+  .QuizTitle-2{
+    position: absolute;
+    bottom: 750px;
+    left: 750px;
+    font-size: 35px;
+  }
+
+  .Button-link{
+
+    background-color: white;
+    margin-left: 80px; 
+    list-style: none;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 15px 32px;
+    text-decoration: none;
+ 
+  }
+
+  .Button-link:hover {
+    transition: all 0.2s ease-out;
+    color: black;
+    text-decoration: none;  
+  
+  }
+  .main {
+    /* need to change class name, as its used in footer too */
+    /* padding-top: 10em; */
+    
+  }
+  
+  
+  .list{
+    list-style: none;
+  }
+.Links-footer{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.Links-footer:hover{
+  text-decoration: none;
+  color: black;
+}
+  
+
+.Quiz-component {
+background-size: cover;
+height: 1000px;
+}
+
+
+.question-carbon{
+  margin-left: 630px;
+  font-size: 45px;
+  margin-top: 200px;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+}
+  
+.answerOurQuestions{
+  margin-left: -390px;
+  font-size: 20px;
+  margin-top: 120px;
+  display: grid;
+  font-weight: bolder;
+  
+}
+
+.Start-btn{
+ margin-left: 700px;
+ margin-right: 100px;
+  font-size: 25px;
+  margin-bottom: 44px;
+  width: 40%;
+  height:45px;
+  border-radius: 15px;
+  border: none;
+  text-align: center;
+  display: grid;
+  text-decoration: none;
+  color:white;
+  background: #006400;
+  text-align: center;
+  font-weight: 100;
+}
+.Quiz-btns{
+  margin-left: 110px;
+  margin-right: 100px;
+   font-size: 25px;
+   margin-bottom: 30px;
+   width: 60%;
+   border-radius: 50px;
+   text-align: center;
+   display: grid;
+   text-decoration: none;
+   color: white;
+}
+.Quiz-btns2{
+  border-width: 0;
+  margin-left: 20px;
+  margin-right: 100px;
+  font-size: 25px;
+  margin-bottom: 50px;
+  width: 60%;
+  border-radius: 50px;
+  text-align: center;
+  display: grid;
+  text-decoration: none;
+  color: white;
+}
+.map-btn{
+  text-decoration: none;
+  color: white;
+  text-decoration: none;
+}
+.map-btn:hover{
+  color: white;
+  text-decoration: none;
+}
+
+
+.questionaire-carbon{
+  margin-left: 670px;
+  font-size: 30px;
+  font-weight: bolder;
+  display: grid;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color: white;
+  font-weight: 300;
+}
+ 
+.score-section-carbon{
+  text-align: center;
+  margin-left: 700px;
+  margin-bottom: 100px;
+  margin-top: -500px;
+  padding:20px;
+  display: grid;
+  border-radius: 15px;
+  border: none;
+  color:white;
+  font-weight: 300;
+}
+
+.charts{
+  font-size: 20px;
+  font-weight: 300;
+  margin:10px;
+  border-radius: 15px;
+  color: #006400;
+
+}
+
+.messure-carbon{
+  font-size: 22px;
+  margin-left: 10px;
+  font-weight: 100;
+}
+
+.Retake-btn{
+  text-align: center;
+  font-size: 19px;
+  position: relative;
+  display: grid;
+}
+.Maps-btn{
+  text-align: center;
+  font-size: 19px;
+  position: relative;
+  display: flex;
+  margin-left: 150px;
+  color: white;
+  border-radius: 100px;
+  text-decoration: none;
+
+}
+
+.Maps-btn:hover{
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+
+}
+
+.app-map{
+  position: center;
+  height: 900px;
+  
+}
+
+.carbon-title{
+  font-size: 25px;
+  margin-left: 730px;
+  font-weight: 300vh;
+}
+
+.Question-length-carbon{
+position: relative;
+display: flex;
+top: 800px;
+color: white;
+text-align: center;
+border-radius: 15px;
+color: white;
+font-weight: 300;
+width: 325px;
+margin-left: 2.5%;
+}
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.News-Stories{
+  margin-left: 785px;
+  margin-bottom: 100px;
+  color: white;
+  font-family: 'Montserrat';
+  font-size: 50px;
+}
+.tables{
+  margin-left: 800px;
+  margin-right: 500px;
+}
+
+.sub-btn{
+  margin-right: 500px;
+  margin-left: -200px;
+  padding: 15px 15px;
+}
+
+
+

@@ -1,0 +1,75 @@
+.contentBox {
+  position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*text-transform: uppercase;*/
+    text-align: center;
+    background: rgb(0, 0, 0, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    /* Aded a fixed height and width */
+    width: 60%;
+    height: 860px;
+}
+.center {
+    color: white;
+    padding: 20px 50px;
+}
+
+/* Now: Style for main title */
+.center h1 {
+  color: white;
+  font-size:38px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+/* New style for paragraph titles */
+.center h4
+{
+  font-size: 22px;
+  text-align: left;
+}
+
+.center .line
+{
+  height: 1px;
+  background:  white;
+  border: none;
+  width: 30%;
+}
+
+.center p
+{
+  text-align: justify;
+}
+
+/* Added style for button */
+.contentBox .return
+{
+  margin-bottom: 10px;
+}
+
+.contentBox div a
+{
+  position: relative;
+  color: white;
+  font-weight: 500;
+  padding: 10px 24px;
+  border-radius: 20px;
+  background: #0984e3;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+.contentBox div a:hover
+{
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
+  padding: 10px 24px;
+  color: lightblue;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 20px;
+}

@@ -1,0 +1,12 @@
+
+
+.NewsletterTitle{
+    font-size: 20px;
+    font-family: 'Special Elite', cursive;
+}
+
+.Newsletter{
+    position: relative;
+    left: 850px;
+    width: 50%;
+}

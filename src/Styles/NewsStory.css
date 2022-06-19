@@ -1,0 +1,130 @@
+.newsgrid {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+
+}
+
+.newscard {
+
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 200px 300px;
+    grid-template-areas: "image" "content";
+    
+    font-family: 'Montserrat';
+    border-radius: 15px;
+    background: white;
+    box-shadow: 5px 5px 15px black;
+    text-align: center;
+
+    max-width: 300px;
+    margin: 15px;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+}
+
+.newsimage {
+
+    grid-area: "image";
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: 120%;
+
+}
+
+.newscontent {
+
+    grid-area: "content";
+    margin: 5px;
+    display: grid;
+    grid-template-areas: "title" "description" "source" "date" "open-button";
+
+}
+
+.newsTitle {
+    grid-area: "title";
+    overflow: scroll;
+    margin: 5px;
+}
+
+.newsDesc {
+    grid-area: "description";
+    overflow: hidden;
+    margin: 5px;
+}
+
+.newsSource {
+    grid-area: "source";
+    overflow: hidden;
+    margin: 5px;
+}
+
+.newsDate {
+    grid-area: "date";
+    overflow: hidden;
+    margin: 5px;
+}
+
+.newsOpenBtn{
+    grid-area: "open-button";
+    overflow: hidden;
+    margin: 5px;
+}
+
+.newscontent a {
+
+    color: dodgerblue;
+    font-weight: bold;
+
+}
+
+.newscontent a:hover {
+
+    text-decoration: none;
+
+}
+
+
+.newscard:hover {
+
+    transform: scale(1.04);
+    box-shadow: 5px 5px 15px black;
+
+}
+
+.sortmenucard {
+
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 200px 200px;
+    grid-template-areas: "date" "source";
+    
+    font-family: 'Montserrat';
+    border-radius: 15px;
+    background: white;
+    box-shadow: 5px 5px 15px black;
+    text-align: center;
+
+    max-width: 300px;
+    margin: 15px;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+}
+
+.sortmenudate {
+
+    grid-area: "date";
+    margin: 5px;
+
+}
+
+.sortmenusource {
+
+    grid-area: "source";
+    margin: 5px;
+
+}

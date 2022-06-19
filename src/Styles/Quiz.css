@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+  .app {
+    width: 850px;
+    height: min-content;
+    border-radius: 60px;
+    padding: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 600px;
+    margin-top: 100px !important;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Nova Square', cursive;
+  }
+  
+  .score-section {
+    display: flex;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-right: 200px;
+  }
+  .quiz-purpose {
+    display: flex;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    margin-right: 200px;
+  }
+  
+  .question-section {
+    width: 150%;
+    height: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    color: white;
+    display: felx;
+    position: relative;
+    bottom: 100px;
+   
+
+  }
+  
+  .question-count {
+    margin-bottom: 30px;
+    font-size: 50px;
+    position: relative;
+    bottom: 50px;
+    
+  }
+  
+  .question-count span {
+    font-size: 50px;
+    
+  }
+  
+  .question-text {
+    margin-bottom: 50px;
+    font-size: 40px;
+    
+    
+  }
+  
+
+  .Quiz-btns2{
+    font-size: 1.5rem;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: rgb(28, 26, 26);
+    background: linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0, 102, 255) 100%);
+    border-radius: 4px;
+    margin-right: 150px;
+  }
+
+.Quiz-btns2:hover{
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
+  transition: transform 150ms;
+  transform: scale(1.03);
+}
+
+.Quiz-btns{
+  font-size: 1.5rem;
+  width: 30rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  background: linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0, 102, 255) 100%);
+  border-radius: 4px;
+}
+
+.Quiz-btns:hover{
+cursor: pointer;
+box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
+transition: transform 150ms;
+transform: scale(1.03);
+}
+  .score-count{
+    font-size: 50px;
+    color: white;
+    margin-left: 900px;
+    margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  
+  }
+
+  .Score-btn{
+    position: absolute;
+    bottom: 480px;
+    left: 720px;
+    color: white;
+    font-size: 100px;
+    font-family: Alegreya Sans;
+    text-decoration: none !important;
+   
+  }
+
+  
+  .Score-btn2{
+    position: absolute;
+    bottom: 280px;
+    left: 720px;
+    color: white;
+    font-size: 100px;
+    font-family: Alegreya Sans;
+    text-decoration: none !important;
+
+   
+  }
+  
+  .bar{
+    color: black;
+    font-size: 0px;
+    height: 00px;
+    padding: 20px;
+  }
+
+
+
+
+
+  
+
+  
